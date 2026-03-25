@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>My portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Hitesh Parmar</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one" style="color: rgb(13, 13, 13)">Hello,</div>
+        <div class="typeJsWrapper">
+          <div class="container">
+            <h1 class="typeJsText" data-typetext="I'm Data Analyst"></h1>
+          </div>
+        </div>
+
+        <!-- <div class="text-three">UI/UX Designer</div> -->
+        <div class="text-four" style="color: rgb(0, 0, 0)">From India</div>
+      </div>
+      <div class="button">
+        <button onclick="openGmail()">Hire Me</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="./images/Passport.PNG" alt="No image" />
+        </div>
+        <div class="right">
+          <div class="topic">Data Analytics Enthusiast</div>
+          <p>
+            Project Officer with hands-on experience in data management,
+            reporting and managing data in IMS sheet. Data Analytics
+            Enthusiast with tools like Power BI and SQL
+          </p>
+          <div class="button" onclick="downloadCV()">
+            <button>Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Projects Section Start -->
+  <section class="projects" id="projects">
+    <div class="content">
+      <div class="title"><span>My Projects</span></div>
+      <div class="projects-details">
+        <div class="project-box">
+          <video src="./AI job market analysis.mp4" controls muted autoplay loop></video>
+          <div class="project-description">
+            <h3>AI Jobs Market Analysis Dashboard</h3>
+            <p>
+              An interactive Power BI dashboard analyzing global AI job trends, covering job distribution, salary
+              insights, and industry demand. It highlights top-paying roles, experience-based salary variations, and
+              remote work patterns to deliver actionable insights. </p>
+            <a href="./images/AAi_jobs_market dashboard.pdf" target="_blank" class="btn">
+              View Dashboard (PDF)
+            </a>
+          </div>
+        </div>
+        <div class="project-box">
+          <video src="./flipkart dashboard.mp4" controls muted autoplay loop></video>
+          <div class="project-description">
+            <h3>Flipkart Sales Analysis Dashboard
+            </h3>
+            <p>
+              An interactive Power BI dashboard analyzing Flipkart sales performance, including revenue, units sold,
+              pricing, and discount impact. It provides insights into category-wise sales, top brands, and city-level
+              performance to support data-driven business decisions.
+            </p>
+            <a href="./images/filpkart dashboard.pdf" target="_blank" class="btn">
+              View Dashboard (PDF)
+            </a>
+
+          </div>
+        </div>
+        <div class="project-box">
+          <video src="./Amazon Sales Dashboard.mp4" controls muted autoplay loop></video>
+          <div class="project-description">
+            <h3>Amazon Sales Performance Dashboard
+            </h3>
+            <p>
+
+              An interactive Power BI dashboard analyzing Amazon sales performance, covering total sales, orders, and product demand trends. It provides insights into monthly sales patterns, category-wise performance, and state-level distribution to support data-driven business decisions.            </p>
+            <a href="./images/Amazon Sales Performance Dashboard.pdf" target="_blank" class="btn">
+              View Dashboard (PDF)
+            </a>
+
+          </div>
+        </div>
+        <div class="project-box">
+          <video src="./coffee sales dashboard.mp4" controls muted autoplay loop></video>
+          <div class="project-description">
+            <h3>Barista Coffee Shop Sales Dashboard</h3>
+            <p>
+              An interactive Power BI dashboard analyzing coffee shop sales performance, including total revenue,
+              product categories, and customer trends. It provides insights into sales by location, time-based trends,
+              promotions, and payment methods to support data-driven business decisions
+            </p>
+            <a href="./images/Barista Coffee Shop Sales Dashboard.pdf" target="_blank" class="btn">
+              View Dashboard (PDF)
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- My Projects Section End -->
+
+  <!-- My Skill Section Start -->
+  <!-- Section Tag and Other Div will same where we need to put same CSS -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Skills Reflects My Knowledge</div>
+          <p>Python , Mysql , Excel Advance , Power-Bi</p>
+          <div class="experience">
+            <div class="num"></div>
+            <div class="exp">
+              <br />• New to the Field, Excited to Make an Impact as an
+              Fresher with relevant experience !
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">Python</div>
+            <div class="per">95%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Mysql</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Excel Advance</div>
+            <div class="per">100%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Power-Bi</div>
+            <div class="per">95%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="topic">Data Collection</div>
+          <p>
+            As a fresher, an analyst can collect data from multiple sources
+            such as Excel files, Google Sheets, databases, CRM tools,
+            websites, APIs, or survey forms. This includes understanding the
+            data source, format, and business relevance. Proper data
+            collection ensures accurate analysis and decision-making.
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-filter"></i>
+          </div>
+          <div class="topic">Data Cleaning & Preprocessing</div>
+          <p>
+            Freshers are often responsible for cleaning raw data by removing
+            duplicates, fixing missing values, correcting errors, and
+            standardizing formats. Clean data is essential because incorrect
+            or inconsistent data can lead to wrong insights and business
+            decisions.
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-table"></i>
+          </div>
+          <div class="topic">Data Organization & Structuring</div>
+          <p>
+            An analyst can organize data into structured tables using rows,
+            columns, and meaningful headers. This includes sorting, filtering,
+            grouping, and categorizing data so it becomes easier to analyze
+            and interpret.
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-file-excel"></i>
+          </div>
+          <div class="topic">Working with Excel & Spreadsheets</div>
+          <p>
+            A fresher analyst can use Excel or Google Sheets for calculations,
+            pivot tables, charts, VLOOKUP/XLOOKUP, conditional formatting, and
+            basic automation. Spreadsheets are the foundation tool for
+            analysis in most organizations.
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="topic">Basic SQL Queries</div>
+          <p>
+            A fresher analyst can write simple SQL queries such as SELECT,
+            WHERE, ORDER BY, GROUP BY, and JOIN to extract required data from
+            databases. SQL helps analysts work directly with large datasets
+            stored in company systems.
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic">Amazon Sales Performance Dashboard</div>
+          <p>
+            An interactive Power BI dashboard analyzing Amazon sales performance, covering total sales, orders, and
+            product demand trends. It provides insights into monthly sales patterns, category-wise performance, and
+            state-level distribution to support data-driven business decisions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic">Barista Coffee Shop Sales Dashboard</div>
+        <p>
+          An interactive Power BI dashboard analyzing coffee shop sales performance, including total revenue, product
+          categories, and customer trends. It provides insights into sales by location, time-based trends, promotions,
+          and payment methods to support data-driven business decisions.
+        </p>
+        <div class="button" onclick="openGmail()">
+          <button>Let's Chat</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
